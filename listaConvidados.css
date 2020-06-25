@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e4cbcb;
+}
+
+
+.card{
+    background-color: white;
+    width:30%;
+    margin: auto;
+    margin-bottom: 13px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+box-shadow: 0px 0px 10px  gray;
+}
+.cardTitle{
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+}
+.card-form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+    padding: 10px 3px;
+}
+.card-acoes button{
+    border:  none;
+    font-weight:900;
+    padding: 15px;
+    font-size: 12px;
+    margin: 20px 0px 0px 0px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.card-acoes button:hover{
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 2px 10px gray;   
+}
+#lbl{
+    
+  font-weight: bold;
+  margin-top: -5px;
+    float: left;
+}
+.itemLista{
+    color: darkcyan;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.itemLista:hover{
+    
+    background-color: yellowgreen;
+
+}
+.itemLista img {
+    width: 20px;
+    float: right;
+}
